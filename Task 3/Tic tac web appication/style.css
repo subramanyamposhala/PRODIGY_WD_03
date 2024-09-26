@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url(img3.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1{
+    margin-top: -150px;
+  }
+  .container {
+    text-align: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(239, 239, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  #restartBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color:black;
+  }
+  
+  #status {
+    margin-top: 15px;
+    font-size: 18px;
+    color:darkorange;
+  }
+  
